@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/menu_background"
+    android:screenOrientation="landscape">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="#00ffffff"
+        android:onClick="goToBattle"
+        android:text="Против телефона"
+        android:textColor="#ff0704ff"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#00ffffff"
+        android:onClick="goToBattle1"
+        android:text="C другом"
+        android:textColor="#ff0704ff"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#00ffffff"
+        android:onClick="wyfy"
+        android:text="WiFi"
+        android:textColor="#ff0704ff"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#00ffffff"
+        android:onClick="exit"
+        android:text="Выход"
+        android:textColor="#ff0704ff"
+        android:textSize="24sp" />
+
+
+</LinearLayout>
